@@ -1,9 +1,16 @@
 package workingWithAbstaction.cardSuits;
 
 public enum CardSuits {
-    CLUBS,
-    DIAMONDS,
-    HEARTS,
-    SPADES;
+    CLUBS(0),
+    DIAMONDS(13),
+    HEARTS(26),
+    SPADES(39);
+    int power;
+    CardSuits(int power) {
+        this.power = power;
+    }
 
+    public int getSuitPower() {
+        return power;
+    }
 }
