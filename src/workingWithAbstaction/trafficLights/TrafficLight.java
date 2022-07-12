@@ -1,7 +1,5 @@
 package workingWithAbstaction.trafficLights;
 
-import java.io.BufferedReader;
-import java.security.PublicKey;
 
 public class TrafficLight {
     private Colours color;
