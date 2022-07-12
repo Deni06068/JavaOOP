@@ -49,6 +49,6 @@ public class Main {
 
 
 
-        people.forEach((p, prod) -> System.out.println( prod.getName()));
+        people.forEach((p, prod) -> System.out.println( prod.toString()));
     }
 }

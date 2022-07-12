@@ -42,13 +42,18 @@ public class Person {
     }
 
     public String getName() {
+        return name;
+    }
+
+    @Override
+    public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(name + " - ");
         List<String> productList = new ArrayList<>();
         for (Product product : products) {
             productList.add(product.getName());
         }
-        if (productList.size() > 0) {
+        if (!productList.isEmpty()) {
             sb.append(String.join(", ", productList));
         }else {
             sb.append("Nothing bought");
