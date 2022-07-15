@@ -1,4 +1,4 @@
-package inheritance.needForSpeed;
+package inheritance.person.needForSpeed;
 
 public class CrossMotorcycle extends Motorcycle {
 
