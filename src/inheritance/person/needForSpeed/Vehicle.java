@@ -1,4 +1,4 @@
-package inheritance.needForSpeed;
+package inheritance.person.needForSpeed;
 
 public class Vehicle {
     final static double DEFAULT_FUEL_CONSUMPTION = 1.25;
